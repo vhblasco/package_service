@@ -1,6 +1,6 @@
 # Product Service
 
-Product service is a project develop as probe of concept to test Spring Boot to build a RESTful WebService.
+Product service is a project develop as proof of concept to test Spring Boot to build a RESTful WebService. This project also consumes remote services.
 
 ## How to execute
 ```sh
