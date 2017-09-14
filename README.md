@@ -23,6 +23,9 @@ $ java -jar ./target/package_service-0.0.1-SNAPSHOT.jar
 | POST | http://localhost:8080/packages/package | Update the package with the id = packageId. if not exists then creates it |
 | POST | http://localhost:8080/packages/package/{packageId} | Deletes the package with the id = packageId. |
 
+## Valid currency symbols
+"AUD","BGN","BRL","CAD","CHF","CNY","CZK","DKK","GBP","HKD","HRK","HUF","IDR","ILS","INR","JPY","KRW","MXN","MYR","NOK","NZD","PHP","PLN","RON","RUB","SEK","SGD","THB","TRY","ZAR","EUR"
+
 ## Complete Cicle
 - GET http://localhost:8080/packages
 
