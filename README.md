@@ -3,11 +3,14 @@
 Product service is a project develop as proof of concept to test Spring Boot to build a RESTful WebService. This project also consumes remote services.
 
 ## How to execute
+
 ```sh
+$ git clone https://github.com/vhblasco/package_service.git
+$ cd package_service
+$ mvn install
 $ java -jar ./target/package_service-0.0.1-SNAPSHOT.jar
 ```
-- Requeriments
-The project needs Java 8 to run.
+- Requeriments: The project needs Java 8 to run and Maven 2 to build it.
 
 ## Endpoints
 | METHOD | ENDPOINT | DESCRIPTION |
